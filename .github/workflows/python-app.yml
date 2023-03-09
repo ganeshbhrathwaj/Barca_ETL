@@ -34,6 +34,10 @@ jobs:
       run: pip install openpyxl
       shell: sh
     
+    - name: pip_request
+      run: pip install requests
+      shell: sh
+    
     - name: ETL
       run: python ETL.py
       shell: sh
