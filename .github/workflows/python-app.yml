@@ -1,7 +1,9 @@
 name: Python application
 
 
-on: push
+on: 
+  schedule:
+    - cron: 30 11 * * 1
 
 env:
   DEVOPS_DIR: HW
