@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 import time
 from selenium.webdriver.chrome.options import Options
-import laliga_table
-import Load  
+#import laliga_table
+#import Load  
 
 options=Options()
 options.add_argument("headless")
