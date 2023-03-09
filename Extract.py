@@ -227,6 +227,8 @@ def load_temp():
                 df3.to_excel(writer, sheet_name='RED CARDS',index=False)
                 df4.to_excel(writer, sheet_name='SUARD STATS',index=False)
                 df5.to_excel(writer, sheet_name='LALIGA TABLE',index=False)
+        df10 = pd.read_excel('barca_stats.xlsx', sheet_name='GOALS')
+        print(df10.head(5))                
                 
 
 
