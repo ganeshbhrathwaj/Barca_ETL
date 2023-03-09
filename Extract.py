@@ -220,7 +220,7 @@ def laliga_table():
 
 def load_temp():
         print("STORING TEMPORARILY")
-        with pd.ExcelWriter('C:/Users/vggan/Desktop/Barca_project/barca_stats.xlsx') as writer:
+        with pd.ExcelWriter('barca_stats.xlsx') as writer:
                 df.to_excel(writer, sheet_name='GOALS',index=False)
                 df1.to_excel(writer, sheet_name='ASSISTS',index=False)
                 df2.to_excel(writer, sheet_name='YELLOW CARDS',index=False)
