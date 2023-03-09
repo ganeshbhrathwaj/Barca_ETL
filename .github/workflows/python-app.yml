@@ -30,6 +30,10 @@ jobs:
       run: pip install pandas
       shell: sh
     
+    - name: pip_openpyxl
+      run: pip install openpyxl
+      shell: sh
+    
     - name: ETL
       run: python ETL.py
       shell: sh
