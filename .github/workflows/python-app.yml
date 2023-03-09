@@ -3,7 +3,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: 30 12 * * *
+    - cron: 45 12 * * *
 
 env:
   DEVOPS_DIR: HW
