@@ -25,6 +25,10 @@ jobs:
     - name: pip_selenium
       run: pip install selenium
       shell: sh
+      
+    - name: pip_pandas
+      run: pip install pandas
+      shell: sh
     
     - name: ETL
       run: python ETL.py
