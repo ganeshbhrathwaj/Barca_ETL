@@ -152,6 +152,9 @@ def squard_stats():
                 gpath='/html/body/div[1]/div[6]/div[2]/div[3]/div/div[2]/div/table/tbody/tr[{}]/td[6]/p'.format(i)
                 spath='/html/body/div[1]/div[6]/div[2]/div[3]/div/div[2]/div/table/tbody/tr[{}]/td[7]/p'.format(i)
                 ppath='/html/body/div[1]/div[6]/div[2]/div[3]/div/div[2]/div/table/tbody/tr[{}]/td[3]/p'.format(i)
+                if i==26:
+                        continue
+
                 
                 name.append(driver.find_element(By.XPATH,npath).text)
                 mins.append(driver.find_element(By.XPATH,mipath).text)
